@@ -1,0 +1,91 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(2, 2, 2);
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 20px 0; 
+    display: flex ;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+.social-icons {
+    display: flex;
+   gap: 10px;
+  
+ 
+}
+a {
+    color: #eee;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* قسم الترحيب */
+#hero {
+    background-image: url('background.jpg'); /* استبدلها بصورتك */
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+}
+
+/* الأقسام */
+section {
+    padding: 50px 20px;
+    
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق المشاريع */
+.project {
+    
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+img {
+    width: 60%;
+    height: 60%;
+    border-radius: 55%;
+}
+/* قسم التواصل */
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+}
+/* تذييل الصفحة */
